@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="46.034189">
+    <testcase classname="Validate the functionality of healthissues through Healthline" name="To get solution for healthproblems" time="24.478562">
+        <system-out><![CDATA[Given User should launch the browser and load the url.......................passed
+When User should click the Health problems topics...........................passed
+And User should give nutritarian diet.......................................passed
+Then User should navigate to the given healthissues.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate the functionality of healthissues through Healthline" name="To check product reviews" time="21.555627">
+        <system-out><![CDATA[Given User should launch the browser and load the url.......................passed
+When User should click product reviews......................................passed
+And User should click WomensHealth..........................................passed
+And User should click AcneTreatement........................................passed
+And User give a page title..................................................passed
+Then User should navigate the credential page...............................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,181 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11201609300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User should launch the browser and load the url",
+            "match": {
+              "location": "HealthlineDefinition.user_should_launch_the_browser_and_load_the_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "To get solution for healthproblems",
+        "description": "",
+        "id": "validate-the-functionality-of-healthissues-through-healthline;to-get-solution-for-healthproblems",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3677665900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click the Health problems topics",
+            "match": {
+              "location": "HealthlineDefinition.user_should_click_the_Health_problems_topics()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1860643000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should give nutritarian diet",
+            "match": {
+              "location": "HealthlineDefinition.userShouldGiveNutritarianDiet()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7733383300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should navigate to the given healthissues",
+            "match": {
+              "location": "HealthlineDefinition.userShouldNavigateToTheGivenHealthissues()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9690098900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User should launch the browser and load the url",
+            "match": {
+              "location": "HealthlineDefinition.user_should_launch_the_browser_and_load_the_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "To check product reviews",
+        "description": "",
+        "id": "validate-the-functionality-of-healthissues-through-healthline;to-check-product-reviews",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1236390800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should click product reviews",
+            "match": {
+              "location": "HealthlineDefinition.user_should_click_product_reviews()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6120433200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should click WomensHealth",
+            "match": {
+              "location": "HealthlineDefinition.user_should_click_WomensHealth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4479675400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should click AcneTreatement",
+            "match": {
+              "location": "HealthlineDefinition.user_should_click_AcneTreatement()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27026100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User give a page title",
+            "match": {
+              "location": "HealthlineDefinition.user_give_a_page_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 732100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should navigate the credential page",
+            "match": {
+              "location": "HealthlineDefinition.user_should_navigate_the_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Validate the functionality of healthissues through Healthline",
+    "description": "",
+    "id": "validate-the-functionality-of-healthissues-through-healthline",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FeatureFiles/healthline.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="41.542023">
+    <testcase classname="Validate the functionality of healthissues through Healthline" name="To get solution for healthproblems" time="23.148354">
+        <failure message="org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;css-16e3huk&quot; data-event=&quot;Landing Page Engagement|Link Click_Find the Right Diet for You_Small Image Listing_1|/nutrition/best-diet-plans&quot; data-element-event=&quot;INTERNALLINK|SECTION|Landing Page Engagement|Small Image Listing - Find the Right Diet for You|LINK|...|null1&quot; href=&quot;/nutrition/best-diet-plans&quot; data-testid=&quot;title-link&quot;&gt;The 9 Best Diet Plans for Your Overall Health&lt;/a&gt; is not clickable at point (451, 599). Other element would receive the click: &lt;div class=&quot;css-17xncde&quot;&gt;&lt;/div&gt;&#10;  (Session info: MicrosoftEdge=117.0.2045.31)&#10;Build info: version: '4.10.0', revision: 'c14d967899'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [cab32dfaa908b7bf3acc2c427eed66c9, clickElement {id=522DD4163877B47408211D22CF428191_element_2207}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.31, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52410}, msedge: {msedgedriverVersion: 117.0.2045.31 (fdd954ad1e8c..., userDataDir: C:\Users\ACER\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52410/devtoo..., se:cdpVersion: 117.0.2045.31, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: msedge on windows (cab32dfaa908b7bf3acc2c427eed66c9)] -&gt; xpath: //a[text()='The 9 Best Diet Plans for Your Overall Health']]&#10;Session ID: cab32dfaa908b7bf3acc2c427eed66c9&#13;&#10;&#9;at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)&#13;&#10;&#9;at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)&#13;&#10;&#9;at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)&#13;&#10;&#9;at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)&#13;&#10;&#9;at java.base/java.lang.reflect.Method.invoke(Method.java:578)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)&#13;&#10;&#9;at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)&#13;&#10;&#9;at org.Pojoclass.LibGlobal.toClick(LibGlobal.java:73)&#13;&#10;&#9;at org.stepDefinition.HealthlineDefinition.userShouldNavigateToTheGivenHealthissues(HealthlineDefinition.java:43)&#13;&#10;&#9;at ✽.User should navigate to the given healthissues(src/test/resources/FeatureFiles/healthline.feature:8)&#13;&#10;"><![CDATA[Given User should launch the browser and load the url.......................passed
+When User should click the Health problems topics...........................passed
+And User should give nutritarian diet.......................................passed
+Then User should navigate to the given healthissues.........................failed
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="css-16e3huk" data-event="Landing Page Engagement|Link Click_Find the Right Diet for You_Small Image Listing_1|/nutrition/best-diet-plans" data-element-event="INTERNALLINK|SECTION|Landing Page Engagement|Small Image Listing - Find the Right Diet for You|LINK|...|null1" href="/nutrition/best-diet-plans" data-testid="title-link">The 9 Best Diet Plans for Your Overall Health</a> is not clickable at point (451, 599). Other element would receive the click: <div class="css-17xncde"></div>
+  (Session info: MicrosoftEdge=117.0.2045.31)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [cab32dfaa908b7bf3acc2c427eed66c9, clickElement {id=522DD4163877B47408211D22CF428191_element_2207}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 117.0.2045.31, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52410}, msedge: {msedgedriverVersion: 117.0.2045.31 (fdd954ad1e8c..., userDataDir: C:\Users\ACER\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52410/devtoo..., se:cdpVersion: 117.0.2045.31, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on windows (cab32dfaa908b7bf3acc2c427eed66c9)] -> xpath: //a[text()='The 9 Best Diet Plans for Your Overall Health']]
+Session ID: cab32dfaa908b7bf3acc2c427eed66c9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+	at org.Pojoclass.LibGlobal.toClick(LibGlobal.java:73)
+	at org.stepDefinition.HealthlineDefinition.userShouldNavigateToTheGivenHealthissues(HealthlineDefinition.java:43)
+	at ✽.User should navigate to the given healthissues(src/test/resources/FeatureFiles/healthline.feature:8)
+]]></failure>
+    </testcase>
+    <testcase classname="Validate the functionality of healthissues through Healthline" name="To check product reviews" time="18.393669">
+        <system-out><![CDATA[Given User should launch the browser and load the url.......................passed
+When User should click product reviews......................................passed
+And User should click WomensHealth..........................................passed
+And User should click AcneTreatement........................................passed
+And User give a page title..................................................passed
+Then User should navigate the credential page...............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
